@@ -10,6 +10,8 @@
 		A4D629B016307CAE0083C3A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
 		A4D629B516307CAE0083C3A3 /* Lestrade.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; };
 		A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
+		A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
+		A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lestrade-Prefix.pch"; sourceTree = "<group>"; };
 		A4D629B416307CAE0083C3A3 /* Lestrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lestrade.h; sourceTree = "<group>"; };
 		A4D629B616307CAE0083C3A3 /* Lestrade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lestrade.m; sourceTree = "<group>"; };
+		A4D629C116307EB20083C3A3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A4D629C216307EB20083C3A3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A4D629C316307EB20083C3A3 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		A4D629C416307EB20083C3A3 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,21 @@
 		A4D629B216307CAE0083C3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4D629C716307EB60083C3A3 /* Base64 */,
 				A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D629C716307EB60083C3A3 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D629C116307EB20083C3A3 /* NSData+Base64.h */,
+				A4D629C216307EB20083C3A3 /* NSData+Base64.m */,
+				A4D629C316307EB20083C3A3 /* NSString+Base64.h */,
+				A4D629C416307EB20083C3A3 /* NSString+Base64.m */,
+			);
+			name = Base64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */,
+				A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */,
+				A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
