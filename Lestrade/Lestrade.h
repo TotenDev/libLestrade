@@ -52,6 +52,15 @@ typedef void (^ValidationBlock)(BOOL isValid, NSError *error);
 
 
 /**
+ * Lib Version
+ * -----------
+ *
+ * @return libLestrade version number
+ */
++(NSString*)version;
+
+
+/**
  * Init with URL
  * -------------
  *

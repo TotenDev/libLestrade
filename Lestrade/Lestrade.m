@@ -24,6 +24,7 @@
 //
 
 #import "Lestrade.h"
+#define LIB_LESTRADE_VERSION @"0.0.1"
 
 @interface Lestrade()
 @property (strong, nonatomic) Reachability *reachability;
@@ -32,6 +33,12 @@
 
 
 @implementation Lestrade
+
+#pragma mark - Version
+
++(NSString*)version { return LIB_LESTRADE_VERSION; }
+
+#pragma mark - Init
 
 -(id)initWithValidationURL:(NSURL*)validationURL {
   self = [super init];
