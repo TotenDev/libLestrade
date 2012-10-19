@@ -12,6 +12,7 @@
 		A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
 		A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
 		A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
+		A4D629CD1631C4EC0083C3A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		A4D629C216307EB20083C3A3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		A4D629C316307EB20083C3A3 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		A4D629C416307EB20083C3A3 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		A4D629CB1631C4EC0083C3A3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A4D629CC1631C4EC0083C3A3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		A4D629B216307CAE0083C3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4D629CF1631C4F00083C3A3 /* Reachability */,
 				A4D629C716307EB60083C3A3 /* Base64 */,
 				A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */,
 			);
@@ -104,6 +108,15 @@
 				A4D629C416307EB20083C3A3 /* NSString+Base64.m */,
 			);
 			name = Base64;
+			sourceTree = "<group>";
+		};
+		A4D629CF1631C4F00083C3A3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A4D629CB1631C4EC0083C3A3 /* Reachability.h */,
+				A4D629CC1631C4EC0083C3A3 /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +173,7 @@
 				A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */,
 				A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */,
 				A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */,
+				A4D629CD1631C4EC0083C3A3 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +270,7 @@
 				A4D629BC16307CAE0083C3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

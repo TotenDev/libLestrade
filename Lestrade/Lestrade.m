@@ -25,12 +25,19 @@
 
 #import "Lestrade.h"
 
+@interface Lestrade()
+@property (strong, nonatomic) Reachability *reachability;
+@end
+
+
+
 @implementation Lestrade
 
--(id)initWithValidationURL:(NSURL *)validationURL {
+-(id)initWithValidationURL:(NSURL*)validationURL {
   self = [super init];
   if (self) {
     self.validationURL = validationURL;
+    self.reachability  = [Reachability reachabilityForInternetConnection];
   }
   return self;
 }
@@ -39,6 +46,13 @@
 
 -(void)validateReceipt:(NSData*)receiptData validationBlock:(ValidationBlock)validation {
   NSAssert(self.validationURL, @"Invalid validationURL");
+  
+  if (![self.reachability isReachable]) {
+    NSDictionary *details = @{NSLocalizedDescriptionKey: @"Unable to connect to server, please check your internet connection."};
+    NSError *err = [NSError errorWithDomain:@"libLestrade" code:1 userInfo:details];
+    validation(NO, err);
+    return;
+  }
   
   NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:self.validationURL];
   
