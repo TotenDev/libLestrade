@@ -8,25 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A4D629B016307CAE0083C3A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
-		A4D629B516307CAE0083C3A3 /* Lestrade.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; };
 		A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
 		A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
 		A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
 		A4D629CD1631C4EC0083C3A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; };
+		A4D629DC1631DF950083C3A3 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A4D629AA16307CAE0083C3A3 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				A4D629B516307CAE0083C3A3 /* Lestrade.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A4D629AC16307CAE0083C3A3 /* libLestrade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLestrade.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +27,7 @@
 		A4D629C416307EB20083C3A3 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		A4D629CB1631C4EC0083C3A3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A4D629CC1631C4EC0083C3A3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A4D629DA1631DDA10083C3A3 /* builder.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = builder.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +80,7 @@
 		A4D629B216307CAE0083C3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4D629DA1631DDA10083C3A3 /* builder.sh */,
 				A4D629CF1631C4F00083C3A3 /* Reachability */,
 				A4D629C716307EB60083C3A3 /* Base64 */,
 				A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */,
@@ -121,6 +110,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A4D629DB1631DF8C0083C3A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D629DC1631DF950083C3A3 /* Lestrade.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		A4D629AB16307CAE0083C3A3 /* Lestrade */ = {
 			isa = PBXNativeTarget;
@@ -128,7 +128,8 @@
 			buildPhases = (
 				A4D629A816307CAE0083C3A3 /* Sources */,
 				A4D629A916307CAE0083C3A3 /* Frameworks */,
-				A4D629AA16307CAE0083C3A3 /* CopyFiles */,
+				A4D629DB1631DF8C0083C3A3 /* Headers */,
+				A4D629D91631DD450083C3A3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -164,6 +165,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4D629D91631DD450083C3A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /homeSync/marcostrovilho/Projects/totendev/libLestrade/Lestrade/builder.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4D629A816307CAE0083C3A3 /* Sources */ = {
@@ -233,6 +251,7 @@
 				DSTROOT = /tmp/Lestrade.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -245,6 +264,7 @@
 				DSTROOT = /tmp/Lestrade.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
