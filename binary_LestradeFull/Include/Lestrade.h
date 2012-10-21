@@ -25,7 +25,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define LestradeLibraryBuildVersion @"0.1002"
+#define LestradeLibraryBuildVersion @"0.1005"
 
 typedef void (^ValidationBlock)(BOOL isValid, NSError *error);
 

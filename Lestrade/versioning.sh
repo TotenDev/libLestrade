@@ -1,5 +1,4 @@
 #!/bin/sh
-
 #  versioning.sh
 #  TDEventsFramework
 #
@@ -37,6 +36,5 @@ then
 	# Write
 	echo "Writing into file and cleaning tmp"
 	sed "s/${UPDATE_DEFINE_STRING} @\"[0-9].*\"/${UPDATE_DEFINE_STRING} @\"${newVersion}\"/g"  "${UPDATE_FILE_NAME}" > "/tmp/tmp.versioning"
-	cat "/tmp/tmp.versioning" > "${UPDATE_FILE_NAME}"
-	rm -rf "/tmp/tmp.versioning"
+	mv "/tmp/tmp.versioning" "${UPDATE_FILE_NAME}"
 fi

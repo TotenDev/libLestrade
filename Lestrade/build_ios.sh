@@ -1,11 +1,9 @@
 #!/bin/sh
-
 #  build.sh
 #  TDEventsFramework
 #
 #  Created by Gabriel Pacheco on 10/20/12.
 #
-
 
 LIB_TARGET_NAME="$1"
 PUBLIC_BUILD_DIR="${PROJECT_DIR}/binary_${LIB_TARGET_NAME}/"
@@ -16,7 +14,6 @@ then
 	echo "Aborting! no target name specified as first argument!"
 	exit 2
 fi
-
 
 
 # Build action only
@@ -83,5 +80,4 @@ then
 # Clean
 	echo "Removing tmp libraries..."
 	rm -rf "${PROJECT_DIR}/build"
-
 fi

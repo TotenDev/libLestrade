@@ -22,18 +22,31 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4FEB95A31633AFB900680361 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D629B016307CAE0083C3A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
-		A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
-		A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
-		A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
-		A4D629CD1631C4EC0083C3A3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; };
+		4FEB95F61633BC5E00680361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
+		4FEB96061633BC6500680361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
+		4FEB96121633BCDB00680361 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
+		4FEB96131633BCDD00680361 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96141633BCE400680361 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CB1631C4EC0083C3A3 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96151633BCE400680361 /* Reachability.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96161633BCE400680361 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C116307EB20083C3A3 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96171633BCE400680361 /* NSData+Base64.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96181633BCE400680361 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C316307EB20083C3A3 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB96191633BCE400680361 /* NSString+Base64.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEB961A1633BCE700680361 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CB1631C4EC0083C3A3 /* Reachability.h */; };
+		4FEB961B1633BCE700680361 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; };
+		4FEB961C1633BCE700680361 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C116307EB20083C3A3 /* NSData+Base64.h */; };
+		4FEB961D1633BCE700680361 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
+		4FEB961E1633BCE700680361 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C316307EB20083C3A3 /* NSString+Base64.h */; };
+		4FEB961F1633BCE700680361 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
+		4FEB96211633BCF600680361 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
+		4FEB96221633BCF800680361 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FEB95991633AED500680361 /* build_ios.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_ios.sh; sourceTree = "<group>"; };
 		4FEB959A1633AEE800680361 /* versioning.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = versioning.sh; sourceTree = "<group>"; };
-		A4D629AC16307CAE0083C3A3 /* libLestrade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLestrade.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEB95F51633BC5E00680361 /* libLestradeMinimal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLestradeMinimal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEB96051633BC6500680361 /* libLestradeFull.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLestradeFull.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D629AF16307CAE0083C3A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lestrade-Prefix.pch"; sourceTree = "<group>"; };
 		A4D629B416307CAE0083C3A3 /* Lestrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lestrade.h; sourceTree = "<group>"; };
@@ -47,11 +60,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A4D629A916307CAE0083C3A3 /* Frameworks */ = {
+		4FEB95F21633BC5E00680361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D629B016307CAE0083C3A3 /* Foundation.framework in Frameworks */,
+				4FEB95F61633BC5E00680361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEB96021633BC6500680361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEB96061633BC6500680361 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +91,8 @@
 		A4D629AD16307CAE0083C3A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4D629AC16307CAE0083C3A3 /* libLestrade.a */,
+				4FEB95F51633BC5E00680361 /* libLestradeMinimal.a */,
+				4FEB96051633BC6500680361 /* libLestradeFull.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,32 +150,66 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FEB95A21633AFB600680361 /* Headers */ = {
+		4FEB96111633BCD600680361 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEB95A31633AFB900680361 /* Lestrade.h in Headers */,
+				4FEB96131633BCDD00680361 /* Lestrade.h in Headers */,
+				4FEB96141633BCE400680361 /* Reachability.h in Headers */,
+				4FEB96151633BCE400680361 /* Reachability.m in Headers */,
+				4FEB96161633BCE400680361 /* NSData+Base64.h in Headers */,
+				4FEB96171633BCE400680361 /* NSData+Base64.m in Headers */,
+				4FEB96181633BCE400680361 /* NSString+Base64.h in Headers */,
+				4FEB96191633BCE400680361 /* NSString+Base64.m in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEB96201633BCF100680361 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEB96221633BCF800680361 /* Lestrade.h in Headers */,
+				4FEB961A1633BCE700680361 /* Reachability.h in Headers */,
+				4FEB961C1633BCE700680361 /* NSData+Base64.h in Headers */,
+				4FEB961E1633BCE700680361 /* NSString+Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A4D629AB16307CAE0083C3A3 /* Lestrade */ = {
+		4FEB95F41633BC5E00680361 /* LestradeMinimal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4D629BA16307CAE0083C3A3 /* Build configuration list for PBXNativeTarget "Lestrade" */;
+			buildConfigurationList = 4FEB95FE1633BC5E00680361 /* Build configuration list for PBXNativeTarget "LestradeMinimal" */;
 			buildPhases = (
-				A4D629A816307CAE0083C3A3 /* Sources */,
-				A4D629A916307CAE0083C3A3 /* Frameworks */,
-				4FEB95A21633AFB600680361 /* Headers */,
+				4FEB95F11633BC5E00680361 /* Sources */,
+				4FEB95F21633BC5E00680361 /* Frameworks */,
+				4FEB96111633BCD600680361 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lestrade;
-			productName = Lestrade;
-			productReference = A4D629AC16307CAE0083C3A3 /* libLestrade.a */;
+			name = LestradeMinimal;
+			productName = LestradeMinimal;
+			productReference = 4FEB95F51633BC5E00680361 /* libLestradeMinimal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4FEB96041633BC6500680361 /* LestradeFull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEB960E1633BC6500680361 /* Build configuration list for PBXNativeTarget "LestradeFull" */;
+			buildPhases = (
+				4FEB96011633BC6500680361 /* Sources */,
+				4FEB96021633BC6500680361 /* Frameworks */,
+				4FEB96201633BCF100680361 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LestradeFull;
+			productName = LestradeFull;
+			productReference = 4FEB96051633BC6500680361 /* libLestradeFull.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -162,6 +218,7 @@
 		A4D629A316307CAE0083C3A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = TotenDev;
 			};
@@ -177,8 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4D629AB16307CAE0083C3A3 /* Lestrade */,
 				4FEB948E16339B5800680361 /* LestradeUniversal */,
+				4FEB95F41633BC5E00680361 /* LestradeMinimal */,
+				4FEB96041633BC6500680361 /* LestradeFull */,
 			);
 		};
 /* End PBXProject section */
@@ -208,19 +266,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\ncd ${PROJECT_DIR}/${PROJECT}\n./build_ios.sh Lestrade";
+			shellScript = "#!/bin/bash\ncd ${PROJECT_DIR}/${PROJECT}\n./build_ios.sh LestradeFull\ncd ${PROJECT_DIR}/${PROJECT}\n./build_ios.sh LestradeMinimal";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A4D629A816307CAE0083C3A3 /* Sources */ = {
+		4FEB95F11633BC5E00680361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D629B716307CAE0083C3A3 /* Lestrade.m in Sources */,
-				A4D629C516307EB20083C3A3 /* NSData+Base64.m in Sources */,
-				A4D629C616307EB20083C3A3 /* NSString+Base64.m in Sources */,
-				A4D629CD1631C4EC0083C3A3 /* Reachability.m in Sources */,
+				4FEB96121633BCDB00680361 /* Lestrade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEB96011633BC6500680361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEB961B1633BCE700680361 /* Reachability.m in Sources */,
+				4FEB96211633BCF600680361 /* Lestrade.m in Sources */,
+				4FEB961D1633BCE700680361 /* NSData+Base64.m in Sources */,
+				4FEB961F1633BCE700680361 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +296,10 @@
 		4FEB949016339B5800680361 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -239,8 +309,81 @@
 		4FEB949116339B5800680361 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FEB95FF1633BC5E00680361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LestradeMinimal.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"__TARGET_NAME__=$(PRODUCT_NAME)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEB96001633BC5E00680361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LestradeMinimal.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "__TARGET_NAME__=$(PRODUCT_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FEB960F1633BC6500680361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LestradeFull.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"__TARGET_NAME__=$(PRODUCT_NAME)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FEB96101633BC6500680361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LestradeFull.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "__TARGET_NAME__=$(PRODUCT_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -292,36 +435,6 @@
 			};
 			name = Release;
 		};
-		A4D629BB16307CAE0083C3A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Lestrade.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A4D629BC16307CAE0083C3A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/Lestrade.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lestrade/Lestrade-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,20 +447,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4FEB95FE1633BC5E00680361 /* Build configuration list for PBXNativeTarget "LestradeMinimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEB95FF1633BC5E00680361 /* Debug */,
+				4FEB96001633BC5E00680361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FEB960E1633BC6500680361 /* Build configuration list for PBXNativeTarget "LestradeFull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEB960F1633BC6500680361 /* Debug */,
+				4FEB96101633BC6500680361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A4D629A616307CAE0083C3A3 /* Build configuration list for PBXProject "Lestrade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4D629B816307CAE0083C3A3 /* Debug */,
 				A4D629B916307CAE0083C3A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4D629BA16307CAE0083C3A3 /* Build configuration list for PBXNativeTarget "Lestrade" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4D629BB16307CAE0083C3A3 /* Debug */,
-				A4D629BC16307CAE0083C3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
