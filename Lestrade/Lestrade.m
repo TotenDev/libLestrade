@@ -74,6 +74,7 @@
   
   [request setHTTPMethod:@"POST"];
   [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+  [request setValue:[Lestrade version] forHTTPHeaderField:@"x-lib-lestrade-version"];
   [self setBasicAuthenticationForRequest:request];
   
   NSString *bodyString = [NSString stringWithFormat:@"{\"receipt-data\":\"%@\"}", [receiptData base64EncodedString]];
