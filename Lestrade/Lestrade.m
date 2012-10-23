@@ -24,13 +24,16 @@
 //
 
 #import "Lestrade.h"
-#define LIB_LESTRADE_VERSION @"0.0.1"
 
 #if __TARGET__NAME__ == LestradeFull
 	#import "NSData+Base64.h"
 	#import "NSString+Base64.h"
 	#import "Reachability.h"
 #endif
+
+#define LIB_LESTRADE_VERSION       @"v0.0.1"
+// auto-increment at every build
+#define LIB_LESTRADE_BUILD_VERSION @"0.0005"
 
 @interface Lestrade()
 @property (strong, nonatomic) id reachability;
@@ -42,7 +45,7 @@
 
 #pragma mark - Version
 
-+(NSString*)version { return LIB_LESTRADE_VERSION; }
++(NSString*)version { return [NSString stringWithFormat:@"%@-%@", LIB_LESTRADE_VERSION, LIB_LESTRADE_BUILD_VERSION]; }
 
 #pragma mark - Init
 

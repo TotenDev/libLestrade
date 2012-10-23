@@ -57,7 +57,6 @@
 		A4D629C416307EB20083C3A3 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		A4D629CB1631C4EC0083C3A3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A4D629CC1631C4EC0083C3A3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		A4D629DA1631DDA10083C3A3 /* builder.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = builder.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,7 +253,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\ncd ${PROJECT_DIR}/${PROJECT}\n./versioning.sh Lestrade.h LestradeLibraryBuildVersion";
+			shellScript = "#!/bin/bash\ncd ${PROJECT_DIR}/${PROJECT}\n./versioning.sh Lestrade.m LIB_LESTRADE_BUILD_VERSION";
+			showEnvVarsInLog = 0;
 		};
 		4FEB949316339B5E00680361 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -268,6 +268,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\ncd ${PROJECT_DIR}/${PROJECT}\n./build_ios.sh LestradeFull\ncd ${PROJECT_DIR}/${PROJECT}\n./build_ios.sh LestradeMinimal";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -456,6 +457,7 @@
 				4FEB96001633BC5E00680361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FEB960E1633BC6500680361 /* Build configuration list for PBXNativeTarget "LestradeFull" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +466,7 @@
 				4FEB96101633BC6500680361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4D629A616307CAE0083C3A3 /* Build configuration list for PBXProject "Lestrade" */ = {
 			isa = XCConfigurationList;

@@ -25,8 +25,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define LestradeLibraryBuildVersion @"0.1005"
-
 typedef void (^ValidationBlock)(BOOL isValid, NSError *error);
 
 @interface Lestrade : NSObject
@@ -51,6 +49,15 @@ typedef void (^ValidationBlock)(BOOL isValid, NSError *error);
  */
 @property (copy, nonatomic) NSString *username;
 @property (copy, nonatomic) NSString *password;
+
+
+/**
+ * Lib Version
+ * -----------
+ *
+ * @return libLestrade version and build number (ie: v0.0.1-0.1015)
+ */
++(NSString*)version;
 
 
 /**

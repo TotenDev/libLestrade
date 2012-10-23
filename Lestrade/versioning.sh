@@ -27,7 +27,7 @@ then
 	echo "Updating build version."
 	cd ${PROJECT_DIR}/${PROJECT}
 	# Get old version
-	oldVersion=$(cat "${UPDATE_FILE_NAME}" | grep "${UPDATE_DEFINE_STRING}")
+	oldVersion=$(cat "${UPDATE_FILE_NAME}" | grep "${UPDATE_DEFINE_STRING}" | head -1)
 	oldVersionFloat=$(echo ${oldVersion} | sed "s/#define ${UPDATE_DEFINE_STRING} @\"//")
 	oldVersionFloat=$(echo ${oldVersionFloat} | sed "s/\"//")
 	# Update float version
