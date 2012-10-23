@@ -26,8 +26,14 @@
 #import "Lestrade.h"
 #define LIB_LESTRADE_VERSION @"0.0.1"
 
+#if __TARGET__NAME__ == LestradeFull
+	#import "NSData+Base64.h"
+	#import "NSString+Base64.h"
+	#import "Reachability.h"
+#endif
+
 @interface Lestrade()
-@property (strong, nonatomic) Reachability *reachability;
+@property (strong, nonatomic) id reachability;
 @end
 
 
@@ -44,7 +50,7 @@
   self = [super init];
   if (self) {
     self.validationURL = validationURL;
-    self.reachability  = [Reachability reachabilityForInternetConnection];
+    self.reachability  = [[NSClassFromString(@"Reachability") class] reachabilityForInternetConnection];
   }
   return self;
 }
