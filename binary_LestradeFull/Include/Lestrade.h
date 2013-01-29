@@ -64,6 +64,15 @@ typedef void (^ValidationBlock)(BOOL isValid, NSError *error);
  * Init with URL
  * -------------
  *
+ * Init and set validationURL, username and password.
+ */
++(Lestrade*)newLestradeWithValidationURL:(NSURL*)validationURL withUsername:(NSString*)_username withPassword:(NSString*)_password ;
+
+
+/**
+ * Init with URL
+ * -------------
+ *
  * Init and set validationURL property.
  */
 -(id)initWithValidationURL:(NSURL*)validationURL;

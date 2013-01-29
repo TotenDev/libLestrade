@@ -33,7 +33,7 @@
 
 #define LIB_LESTRADE_VERSION       @"v0.0.1"
 // auto-increment at every build
-#define LIB_LESTRADE_BUILD_VERSION @"0.0005"
+#define LIB_LESTRADE_BUILD_VERSION @"0.0006"
 
 @interface Lestrade()
 @property (strong, nonatomic) id reachability;
@@ -48,6 +48,13 @@
 +(NSString*)version { return [NSString stringWithFormat:@"%@-%@", LIB_LESTRADE_VERSION, LIB_LESTRADE_BUILD_VERSION]; }
 
 #pragma mark - Init
+
++(Lestrade*)newLestradeWithValidationURL:(NSURL*)validationURL withUsername:(NSString*)_username withPassword:(NSString*)_password {
+  Lestrade *__self = [[self alloc] initWithValidationURL:validationURL];
+  [__self setUsername:_username];
+  [__self setPassword:_password];
+  return __self;
+}
 
 -(id)initWithValidationURL:(NSURL*)validationURL {
   self = [super init];
