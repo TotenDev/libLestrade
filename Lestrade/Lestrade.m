@@ -49,6 +49,13 @@
 
 #pragma mark - Init
 
++(Lestrade*)newLestradeWithValidationURL:(NSURL*)validationURL withUsername:(NSString*)_username withPassword:(NSString*)_password {
+  Lestrade *__self = [[self alloc] initWithValidationURL:validationURL];
+  [__self setUsername:_username];
+  [__self setPassword:_password];
+  return __self;
+}
+
 -(id)initWithValidationURL:(NSURL*)validationURL {
   self = [super init];
   if (self) {
