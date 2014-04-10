@@ -33,7 +33,7 @@
 
 #define LIB_LESTRADE_VERSION       @"v0.0.1"
 // auto-increment at every build
-#define LIB_LESTRADE_BUILD_VERSION @"0.0006"
+#define LIB_LESTRADE_BUILD_VERSION @"0.0008"
 
 @interface Lestrade()
 @property (strong, nonatomic) id reachability;
