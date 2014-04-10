@@ -22,27 +22,25 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		22F2B34318F73D0900BE9553 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F2B34118F73D0900BE9553 /* Base64.h */; };
+		22F2B34418F73D0900BE9553 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2B34218F73D0900BE9553 /* Base64.m */; };
+		22F2B34518F73D2F00BE9553 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F2B34118F73D0900BE9553 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F2B34618F73D2F00BE9553 /* Base64.m in Headers */ = {isa = PBXBuildFile; fileRef = 22F2B34218F73D0900BE9553 /* Base64.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FEB95F61633BC5E00680361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
 		4FEB96061633BC6500680361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D629AF16307CAE0083C3A3 /* Foundation.framework */; };
 		4FEB96121633BCDB00680361 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
 		4FEB96131633BCDD00680361 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FEB96141633BCE400680361 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CB1631C4EC0083C3A3 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FEB96151633BCE400680361 /* Reachability.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FEB96161633BCE400680361 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C116307EB20083C3A3 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FEB96171633BCE400680361 /* NSData+Base64.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FEB96181633BCE400680361 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C316307EB20083C3A3 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FEB96191633BCE400680361 /* NSString+Base64.m in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FEB961A1633BCE700680361 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629CB1631C4EC0083C3A3 /* Reachability.h */; };
 		4FEB961B1633BCE700680361 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629CC1631C4EC0083C3A3 /* Reachability.m */; };
-		4FEB961C1633BCE700680361 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C116307EB20083C3A3 /* NSData+Base64.h */; };
-		4FEB961D1633BCE700680361 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C216307EB20083C3A3 /* NSData+Base64.m */; };
-		4FEB961E1633BCE700680361 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629C316307EB20083C3A3 /* NSString+Base64.h */; };
-		4FEB961F1633BCE700680361 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629C416307EB20083C3A3 /* NSString+Base64.m */; };
 		4FEB96211633BCF600680361 /* Lestrade.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D629B616307CAE0083C3A3 /* Lestrade.m */; };
 		4FEB96221633BCF800680361 /* Lestrade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D629B416307CAE0083C3A3 /* Lestrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22F2B34118F73D0900BE9553 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		22F2B34218F73D0900BE9553 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		4FEB95991633AED500680361 /* build_ios.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_ios.sh; sourceTree = "<group>"; };
 		4FEB959A1633AEE800680361 /* versioning.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = versioning.sh; sourceTree = "<group>"; };
 		4FEB95F51633BC5E00680361 /* libLestradeMinimal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLestradeMinimal.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,10 +49,6 @@
 		A4D629B316307CAE0083C3A3 /* Lestrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lestrade-Prefix.pch"; sourceTree = "<group>"; };
 		A4D629B416307CAE0083C3A3 /* Lestrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lestrade.h; sourceTree = "<group>"; };
 		A4D629B616307CAE0083C3A3 /* Lestrade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lestrade.m; sourceTree = "<group>"; };
-		A4D629C116307EB20083C3A3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		A4D629C216307EB20083C3A3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		A4D629C316307EB20083C3A3 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		A4D629C416307EB20083C3A3 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		A4D629CB1631C4EC0083C3A3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A4D629CC1631C4EC0083C3A3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,10 +124,8 @@
 		A4D629C716307EB60083C3A3 /* Base64 */ = {
 			isa = PBXGroup;
 			children = (
-				A4D629C116307EB20083C3A3 /* NSData+Base64.h */,
-				A4D629C216307EB20083C3A3 /* NSData+Base64.m */,
-				A4D629C316307EB20083C3A3 /* NSString+Base64.h */,
-				A4D629C416307EB20083C3A3 /* NSString+Base64.m */,
+				22F2B34118F73D0900BE9553 /* Base64.h */,
+				22F2B34218F73D0900BE9553 /* Base64.m */,
 			);
 			name = Base64;
 			sourceTree = "<group>";
@@ -155,12 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEB96131633BCDD00680361 /* Lestrade.h in Headers */,
+				22F2B34518F73D2F00BE9553 /* Base64.h in Headers */,
+				22F2B34618F73D2F00BE9553 /* Base64.m in Headers */,
 				4FEB96141633BCE400680361 /* Reachability.h in Headers */,
 				4FEB96151633BCE400680361 /* Reachability.m in Headers */,
-				4FEB96161633BCE400680361 /* NSData+Base64.h in Headers */,
-				4FEB96171633BCE400680361 /* NSData+Base64.m in Headers */,
-				4FEB96181633BCE400680361 /* NSString+Base64.h in Headers */,
-				4FEB96191633BCE400680361 /* NSString+Base64.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,9 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEB96221633BCF800680361 /* Lestrade.h in Headers */,
+				22F2B34318F73D0900BE9553 /* Base64.h in Headers */,
 				4FEB961A1633BCE700680361 /* Reachability.h in Headers */,
-				4FEB961C1633BCE700680361 /* NSData+Base64.h in Headers */,
-				4FEB961E1633BCE700680361 /* NSString+Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEB961B1633BCE700680361 /* Reachability.m in Sources */,
+				22F2B34418F73D0900BE9553 /* Base64.m in Sources */,
 				4FEB96211633BCF600680361 /* Lestrade.m in Sources */,
-				4FEB961D1633BCE700680361 /* NSData+Base64.m in Sources */,
-				4FEB961F1633BCE700680361 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
